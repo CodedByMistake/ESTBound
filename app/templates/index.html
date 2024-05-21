@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Journal - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos aqui */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="logo" src="../static/imagens/Logo.png" alt="Logotipo">
+        <div class="btn-group">
+            <form action="/nova-nota" method="post">
+                <button class="btn btn-primary add-note-btn" type="submit">Adicionar Nota</button>
+            </form>
+        </div>
+        <div class="notes">
+            {% for note in notes %}
+            <div class="note">
+                <h4><a id="title" href="{{ note.link }}">{{ note.title }}</a></h4>
+                <p>{{ note.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
