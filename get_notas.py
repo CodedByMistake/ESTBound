@@ -11,4 +11,7 @@ def get_notas():
     query = "SELECT * FROM c"
     notas = list(container.query_items(query, enable_cross_partition_query=True))
 
+    # Adicionar logs para verificar o retorno
+    print("Notas obtidas do Cosmos DB:", notas)
+
     return notas
