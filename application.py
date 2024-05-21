@@ -24,4 +24,4 @@ def add_nota():
 def nova_nota():
     return render_template('nota.html')
 
-app.run(host="0.0.0.0", port=8000)
+app.run(host="0.0.0.0", port=80)
