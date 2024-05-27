@@ -1,9 +1,9 @@
 # Variaveis do CosmoDB
 COSMOS_DB_URL = "https://estbounddb.documents.azure.com:443/"
-COSMOS_DB_KEY = "h9vk383cw1E4hT9VAo6Cf6SSke2St1wWE8TzlyZZGMPmU95fQfnu0DrEc0Y7vD3ZyX0MjhpN1i1OACDbvw9wpA=="
+COSMOS_DB_KEY = "t2rYwqXYx7UtCOMeSg8QYn8ZHr21hR0p8UwLGqTRILWUJPImUBgi22fShH6YrDvvUorPx1ecDtLNACDbvEIRqA=="
 COSMOS_DB_DATABASE_NAME = "notas"
 COSMOS_DB_CONTAINER_NAME = "notasContainer"
 
 # Variaveis do Blob
-BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=estboundimagens;AccountKey=Ihpx65qonHf5ugP0vvROC5cBv+Nf6b0H6jWXOZRuMHzY68e2RIpN1G6K60NVfvEqQxs0nMLf3iv6+AStod2rvQ==;EndpointSuffix=core.windows.net"
+BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=estboundimagens;AccountKey=ohHq7Z0mB1rzGYceFadeFpheaubXhKbwdChbsBdZa3NA54KWuwZmZ5/6RWTst8KT8BX6EM58M3nF+AStlbueKA==;EndpointSuffix=core.windows.net"
 BLOB_CONTAINER_NAME = "fotoscontainer"
